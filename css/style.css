@@ -32,17 +32,20 @@ body {
   border-radius: 1rem;
   -webkit-box-shadow: 1px 1px 10px #08081d;
           box-shadow: 1px 1px 10px #08081d;
+  padding: 1rem;
 }
 
 .nft {
   background: center/cover url("/images/image-equilibrium.jpg") no-repeat;
   min-height: 20rem;
-  margin: .5rem;
   border-radius: .5rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
   color: white;
+  font-size: larger;
+  margin-bottom: 1rem;
 }
 
 p {

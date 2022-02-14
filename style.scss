@@ -35,18 +35,21 @@ max-width: 300px;
 padding: 1rem;
 border-radius: 1rem;
 box-shadow: 1px 1px 10px rgb(8, 8, 29);
+padding: 1rem;
 }
 
 
 .nft{
 background: center/cover url('/images/image-equilibrium.jpg') no-repeat;
 min-height:20rem;
-margin:.5rem;
 border-radius: .5rem;
+margin-bottom: 1rem;
 }
 
 h2{
     color: $White;
+    font-size: larger;
+    margin-bottom: 1rem;
 }
 
 p{
