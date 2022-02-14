@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+// VARIABLES
+// COLORS
+$Soft_blue: hsl(215, 51%, 70%);
+$Cyan: hsl(178, 100%, 50%);
+$main_bg: hsl(217, 54%, 11%);
+$card_bg: hsl(216, 50%, 16%);
+$line: hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+// Typography
+
+$font: 'Outfit', sans-serif;
+
+body{
+    background-color: $main_bg;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: $font;
+}
+
+.parent{
+background-color: $line;
+max-width: 300px;
+padding: 1rem;
+border-radius: 1rem;
+box-shadow: 1px 1px 10px rgb(8, 8, 29);
+}
+
+.nft{
+height: 500px;
+width: 100%;
+margin:1rem 0;
+background-size: cover;
+
+}
+
+.nft-img{
+    background-image: url(./images/image-equilibrium.jpg);
+}
+
+section{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
