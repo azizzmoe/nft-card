@@ -26,7 +26,7 @@ body {
 }
 
 .parent {
-  background-color: #2f415b;
+  background-color: #14253d;
   max-width: 300px;
   padding: 1rem;
   border-radius: 1rem;
@@ -35,14 +35,18 @@ body {
 }
 
 .nft {
-  height: 500px;
-  width: 100%;
-  margin: 1rem 0;
-  background-size: cover;
+  background: center/cover url("/images/image-equilibrium.jpg") no-repeat;
+  min-height: 20rem;
+  margin: .5rem;
+  border-radius: .5rem;
 }
 
-.nft-img {
-  background-image: url(./images/image-equilibrium.jpg);
+h2 {
+  color: white;
+}
+
+p {
+  color: #8bacda;
 }
 
 section {

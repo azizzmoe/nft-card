@@ -30,24 +30,30 @@ body{
 }
 
 .parent{
-background-color: $line;
+background-color: $card_bg;
 max-width: 300px;
 padding: 1rem;
 border-radius: 1rem;
 box-shadow: 1px 1px 10px rgb(8, 8, 29);
 }
 
+
 .nft{
-height: 500px;
-width: 100%;
-margin:1rem 0;
-background-size: cover;
-
+background: center/cover url('/images/image-equilibrium.jpg') no-repeat;
+min-height:20rem;
+margin:.5rem;
+border-radius: .5rem;
 }
 
-.nft-img{
-    background-image: url(./images/image-equilibrium.jpg);
+h2{
+    color: $White;
 }
+
+p{
+    color: $Soft_blue;
+}
+
+
 
 section{
 display: flex;
