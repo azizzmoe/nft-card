@@ -8,12 +8,12 @@
 
 // VARIABLES
 // COLORS
-$Soft_blue: hsl(215, 51%, 70%);
-$Cyan: hsl(178, 100%, 50%);
-$main_bg: hsl(217, 54%, 11%);
-$card_bg: hsl(216, 50%, 16%);
-$line: hsl(215, 32%, 27%);
-$White: hsl(0, 0%, 100%);
+$Soft_blue: rgb(139, 172, 218);
+$Cyan: rgb(0, 255, 247);
+$main_bg: rgb(13, 25, 43);
+$card_bg: rgb(20, 37, 61);
+$line: rgb(47, 65, 91);
+$White: rgb(255, 255, 255);
 
 // Typography
 
@@ -31,25 +31,37 @@ body{
 
 .parent{
 background-color: $card_bg;
-max-width: 300px;
-padding: 1rem;
+max-width: 320px;
 border-radius: 1rem;
 box-shadow: 1px 1px 10px rgb(8, 8, 29);
 padding: 1rem;
 }
 
+main > *{
+    padding: .4rem;
+}
+
+  p:nth-child(3){
+    color: $Soft_blue;
+}
 
 .nft{
 background: center/cover url('/images/image-equilibrium.jpg') no-repeat;
 min-height:20rem;
 border-radius: .5rem;
-margin-bottom: 1rem;
+margin: .5rem;
 }
 
 h2{
     color: $White;
     font-size: larger;
-    margin-bottom: 1rem;
+    
+}
+
+.ether{
+    background-image: url('./images/icon-ethereum.svg');
+
+    color:$Cyan;
 }
 
 p{

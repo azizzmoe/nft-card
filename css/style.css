@@ -27,25 +27,36 @@ body {
 
 .parent {
   background-color: #14253d;
-  max-width: 300px;
-  padding: 1rem;
+  max-width: 320px;
   border-radius: 1rem;
   -webkit-box-shadow: 1px 1px 10px #08081d;
           box-shadow: 1px 1px 10px #08081d;
   padding: 1rem;
 }
 
+main > * {
+  padding: .4rem;
+}
+
+p:nth-child(3) {
+  color: #8bacda;
+}
+
 .nft {
   background: center/cover url("/images/image-equilibrium.jpg") no-repeat;
   min-height: 20rem;
   border-radius: .5rem;
-  margin-bottom: 1rem;
+  margin: .5rem;
 }
 
 h2 {
   color: white;
   font-size: larger;
-  margin-bottom: 1rem;
+}
+
+.ether {
+  background-image: url("./images/icon-ethereum.svg");
+  color: #00fff7;
 }
 
 p {
