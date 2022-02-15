@@ -31,27 +31,41 @@ body {
 
 .parent {
   background-color: $card_bg;
-  max-width: 320px;
+  max-width: 340px;
   border-radius: 1rem;
   box-shadow: 1px 1px 10px rgb(8, 8, 29);
   padding: 1rem;
 }
 
 main > * {
-  padding: 0.4rem;
+  padding: 0.5rem;
 }
 
 .nft {
-  background: center/cover url("/images/image-equilibrium.jpg") no-repeat;
+  background: $Cyan center/cover url("/images/image-equilibrium.jpg") no-repeat;
   min-height: 20rem;
   border-radius: 0.5rem;
-  margin: 0.5rem;
+  margin: 0.5rem .5rem;
 }
+
+// .nft:hover{
+//     cursor: pointer;
+//     background-blend-mode:lighten;
+//     opacity: 0.9;
+// }
 
 h2 {
   color: $White;
   font-size: larger;
 }
+// Hover State
+
+h2:hover,
+.name:hover{
+color: $Cyan;
+cursor: pointer;
+}
+
 
 p {
   color: $Soft_blue;
@@ -94,6 +108,7 @@ footer {
 footer > div {
   margin-right: 1rem;
 }
+
 footer > p,
 span {
   margin-right: 0.3rem;

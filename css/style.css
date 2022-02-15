@@ -27,7 +27,7 @@ body {
 
 .parent {
   background-color: #14253d;
-  max-width: 320px;
+  max-width: 340px;
   border-radius: 1rem;
   -webkit-box-shadow: 1px 1px 10px #08081d;
           box-shadow: 1px 1px 10px #08081d;
@@ -35,19 +35,25 @@ body {
 }
 
 main > * {
-  padding: 0.4rem;
+  padding: 0.5rem;
 }
 
 .nft {
-  background: center/cover url("/images/image-equilibrium.jpg") no-repeat;
+  background: #00fff7 center/cover url("/images/image-equilibrium.jpg") no-repeat;
   min-height: 20rem;
   border-radius: 0.5rem;
-  margin: 0.5rem;
+  margin: 0.5rem .5rem;
 }
 
 h2 {
   color: white;
   font-size: larger;
+}
+
+h2:hover,
+.name:hover {
+  color: #00fff7;
+  cursor: pointer;
 }
 
 p {
