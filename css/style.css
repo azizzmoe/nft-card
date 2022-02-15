@@ -35,18 +35,14 @@ body {
 }
 
 main > * {
-  padding: .4rem;
-}
-
-p:nth-child(3) {
-  color: #8bacda;
+  padding: 0.4rem;
 }
 
 .nft {
   background: center/cover url("/images/image-equilibrium.jpg") no-repeat;
   min-height: 20rem;
-  border-radius: .5rem;
-  margin: .5rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
 }
 
 h2 {
@@ -54,13 +50,8 @@ h2 {
   font-size: larger;
 }
 
-.ether {
-  background-image: url("./images/icon-ethereum.svg");
-  color: #00fff7;
-}
-
 p {
-  color: #8bacda;
+  color: rgba(139, 172, 218, 0.747);
 }
 
 section {
@@ -74,5 +65,58 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.ether {
+  background-image: url("data:image/svg+xml,%3Csvg width='11' height='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z' fill='%2300FFF8'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  color: #00fff7;
+  padding-left: 1rem;
+}
+
+.clock {
+  background-image: url("data:image/svg+xml,%3Csvg width='17' height='17' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z' fill='%238BACD9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  padding-left: 1.5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(139, 172, 218, 0.747);
+  margin: 0.5rem 0.5rem 0 0.5rem;
+  opacity: 0.2;
+  font-size: 0.9rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 6vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+footer > div {
+  margin-right: 1rem;
+}
+
+footer > p,
+span {
+  margin-right: 0.3rem;
+}
+
+.icon {
+  background: center/cover url("/images/image-avatar.png") no-repeat;
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
 }
 /*# sourceMappingURL=style.css.map */

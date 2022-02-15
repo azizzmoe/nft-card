@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 // VARIABLES
 // COLORS
-$Soft_blue: rgb(139, 172, 218);
+$Soft_blue: hsla(215, 52%, 70%, 0.747);
 $Cyan: rgb(0, 255, 247);
 $main_bg: rgb(13, 25, 43);
 $card_bg: rgb(20, 37, 61);
@@ -17,61 +17,94 @@ $White: rgb(255, 255, 255);
 
 // Typography
 
-$font: 'Outfit', sans-serif;
+$font: "Outfit", sans-serif;
 
-body{
-    background-color: $main_bg;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: $font;
+body {
+  background-color: $main_bg;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: $font;
 }
 
-.parent{
-background-color: $card_bg;
-max-width: 320px;
-border-radius: 1rem;
-box-shadow: 1px 1px 10px rgb(8, 8, 29);
-padding: 1rem;
+.parent {
+  background-color: $card_bg;
+  max-width: 320px;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 10px rgb(8, 8, 29);
+  padding: 1rem;
 }
 
-main > *{
-    padding: .4rem;
+main > * {
+  padding: 0.4rem;
 }
 
-  p:nth-child(3){
-    color: $Soft_blue;
+.nft {
+  background: center/cover url("/images/image-equilibrium.jpg") no-repeat;
+  min-height: 20rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
 }
 
-.nft{
-background: center/cover url('/images/image-equilibrium.jpg') no-repeat;
-min-height:20rem;
-border-radius: .5rem;
-margin: .5rem;
+h2 {
+  color: $White;
+  font-size: larger;
 }
 
-h2{
-    color: $White;
-    font-size: larger;
-    
+p {
+  color: $Soft_blue;
 }
 
-.ether{
-    background-image: url('./images/icon-ethereum.svg');
-
-    color:$Cyan;
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-p{
-    color: $Soft_blue;
+.ether {
+  background-image: url("data:image/svg+xml,%3Csvg width='11' height='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z' fill='%2300FFF8'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  color: $Cyan;
+  padding-left: 1rem;
 }
 
+.clock {
+  background-image: url("data:image/svg+xml,%3Csvg width='17' height='17' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z' fill='%238BACD9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  padding-left: 1.5rem;
+  align-self: center;
+}
 
+hr {
+  border: none;
+  border-top: 1px solid $Soft_blue;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+  opacity: 0.2;
+  font-size: 0.9rem;
+}
 
-section{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+footer {
+  display: flex;
+  min-height: 6vh;
+  align-items: center;
+  color: $White;
+}
+footer > div {
+  margin-right: 1rem;
+}
+footer > p,
+span {
+  margin-right: 0.3rem;
+}
+
+.icon {
+  background: center/cover url("/images/image-avatar.png") no-repeat;
+  display: block;
+  // margin: 8px 11px 0px 0px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid $White;
 }
