@@ -41,18 +41,22 @@ main > * {
   padding: 0.5rem;
 }
 
-.nft {
-  background: $Cyan center/cover url("/images/image-equilibrium.jpg") no-repeat;
+.intro {
+  background: center/cover url("/images/image-equilibrium.jpg") no-repeat;
   min-height: 20rem;
   border-radius: 0.5rem;
   margin: 0.5rem .5rem;
+  position: relative;
 }
 
-// .nft:hover{
-//     cursor: pointer;
-//     background-blend-mode:lighten;
-//     opacity: 0.9;
-// }
+
+.nft-bg{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 60%);
+    top: 0%;  
+    height: 10%
+}
+
 
 h2 {
   color: $White;
