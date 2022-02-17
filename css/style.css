@@ -87,7 +87,7 @@ p {
   color: rgba(139, 172, 218, 0.747);
 }
 
-section {
+aside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
