@@ -31,7 +31,7 @@ body {
 
 .parent {
   background-color: $card_bg;
-  max-width: 340px;
+  max-width: 350px;
   border-radius: 1rem;
   box-shadow: 1px 1px 10px rgb(8, 8, 29);
   padding: 1rem;
@@ -41,20 +41,39 @@ main > * {
   padding: 0.5rem;
 }
 
-.intro {
+.intro{
+  position: relative;
+
+
+ .nft-bg{
+  position: absolute;
+  background-color: hsla(180, 100%, 50%, 0.322);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+ .nft-bg:hover{
+  opacity: 1;
+  border-radius: .5rem;
+  cursor: pointer;    
+}
+
+ .nft-bg img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+}
+
+.nft {
   background: center/cover url("/images/image-equilibrium.jpg") no-repeat;
   min-height: 20rem;
   border-radius: 0.5rem;
-  margin: 0.5rem .5rem;
-  position: relative;
-}
-
-
-.nft-bg{
-    position: absolute;
-    background-color: hsl(178, 100%, 50%, 60%);
-    top: 0%;  
-    height: 10%
 }
 
 
@@ -69,7 +88,6 @@ h2:hover,
 color: $Cyan;
 cursor: pointer;
 }
-
 
 p {
   color: $Soft_blue;
@@ -95,7 +113,7 @@ section {
   align-self: center;
 }
 
-hr {
+hr{
   border: none;
   border-top: 1px solid $Soft_blue;
   margin: 0.5rem 0.5rem 0 0.5rem;
@@ -121,7 +139,6 @@ span {
 .icon {
   background: center/cover url("/images/image-avatar.png") no-repeat;
   display: block;
-  // margin: 8px 11px 0px 0px;
   width: 35px;
   height: 35px;
   border-radius: 50%;
