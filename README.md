@@ -6,5 +6,5 @@
 
 **Thanks for checking out my work!** 🚀
 
-[Live Site](https://a2uuz.github.io/nft-card/) 
+[Live Site](https://azzizmoe.github.io/nft-card/) 
 
